@@ -40,11 +40,7 @@
  * Pre-processor Definitions
  ****************************************************************************/
 
-#define MEMPOOL_HEADER_SIZE (sizeof(sq_entry_t) + CONFIG_MM_NODE_GUARDSIZE)
-
 #if CONFIG_MM_BACKTRACE >= 0
-#define MEMPOOL_MAGIC_FREE  0x55555555
-#define MEMPOOL_MAGIC_ALLOC 0xAAAAAAAA
 
 /****************************************************************************
  * Private Types
